@@ -1,24 +1,12 @@
 
 import {  Form } from 'semantic-ui-react';
 import './App.css';
+import Table from './components/Table';
 
 function App() {
   return (
     <>
-    <section id='main' className='main-section'>
-
-      <table>
-        <tr><th>TimeSheet</th>
-        <th>Spent time</th>
-        <th>Total time</th></tr>
-        <tr>
-          <td>Nikhil</td>
-          <td>2hrs</td>
-          <td>8hrs</td>
-        </tr>
-      </table>
-
-    </section>
+    <Table col1='Time Sheet' col2='Spent time' col3='Total time'></Table>
     <section>
       <Form>
         <Form.Group>
